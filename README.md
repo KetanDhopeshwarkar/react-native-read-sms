@@ -28,26 +28,26 @@ import * as ReadSms from 'react-native-read-sms/ReadSms';
 export default class ReadSMSComponent extends Component {
 
 	constructor(props) {
-		super(props);
+	    super(props);
 	}
   
 	componentWillMount = () => {
-		this.startReadSMS();
+	    this.startReadSMS();
 	}
 	
 	startReadSMS = async () => {
-		const hasPermission = await ReadSms.requestReadSMSPermission();
-		if(hasPermission) {
-			ReadSms.startReadSMS((status, sms, error) => {
-				if (status == "success") {
-					console.log("Great!! you have received new sms:", sms);
-				}
-			});
-		}
+	    const hasPermission = await ReadSms.requestReadSMSPermission();
+	    if(hasPermission) {
+	        ReadSms.startReadSMS((status, sms, error) => {
+	            if (status == "success") {
+	                console.log("Great!! you have received new sms:", sms);
+	            }
+	        });
+	    }
 	}
 
 	componentWillUnmount = () => {
-		ReadSms.stopReadSMS();
+	    ReadSms.stopReadSMS();
 	}
 }
 ```
