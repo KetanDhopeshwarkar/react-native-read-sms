@@ -1,0 +1,38 @@
+{
+  "name": "react-native-read-sms",
+  "title": "React Native Read Sms",
+  "typings": "index.d.ts",
+  "version": "1.0.0",
+  "description": "This plugin is used to read new recived sms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-read-sms.git",
+    "baseUrl": "https://github.com/github_account/react-native-read-sms"
+  },
+  "keywords": [
+    "android",
+    "iOS",
+    "react-native-read-sms",
+    "read-sms",
+    "react-native"
+  ],
+  "author": "KSquad Pvt. Ltd. <ketan@ksquad.com>",
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  },
+  "bugs": {
+    "url": "https://github.com/github_account/react-native-read-sms/issues"
+  },
+  "homepage": "https://github.com/github_account/react-native-read-sms#readme"
+}
