@@ -33,7 +33,7 @@ export default class ReadSMSComponent extends Component {
 
     componentWillMount = () => {
         this.startReadSMS();
-    }
+	}
 	
 	startReadSMS = async () => {
 		const hasPermission = await ReadSms.requestReadSMSPermission();
