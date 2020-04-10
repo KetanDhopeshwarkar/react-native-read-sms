@@ -55,6 +55,7 @@ export async function requestReadSMSPermission() {
         }
         return false;
     }
+    return true;
 }
 
 export function stopReadSMS() {
