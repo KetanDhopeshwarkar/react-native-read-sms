@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.reactlibrary.ksquad.readsms;
 
 import android.Manifest;
 import android.content.BroadcastReceiver;
