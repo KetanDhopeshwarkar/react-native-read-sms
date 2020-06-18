@@ -26,7 +26,7 @@ export async function startReadSMS(callback) {
     }
 }
 
-export const hasSMSPermission = async () => {
+export async function hasSMSPermission() {
     if (Platform.OS === 'android' && Platform.Version < 23) {
         return true;
     }
