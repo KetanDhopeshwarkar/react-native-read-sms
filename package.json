@@ -19,7 +19,10 @@
     "read-sms",
     "react-native"
   ],
-  "author": "KSquad Pvt. Ltd. <ketan@ksquad.com>",
+   "author": {
+    "name": "Trevor Porter",
+    "email": "trkporter@ucdavis.edu"
+  },
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "peerDependencies": {
