@@ -76,7 +76,7 @@ public class ReadSmsModule extends ReactContextBaseJavaModule {
                 if (pdusObj != null) {
                     for (Object aPdusObj : pdusObj) {
                         SmsMessage currentMessage = SmsMessage.createFromPdu((byte[]) aPdusObj);
-                        message = currentMessage.getDisplayMessageBody();
+                        message = currentMessage.getOriginatingAddress() + ": " + currentMessage.getDisplayMessageBody();
                     }
                 }
             }
